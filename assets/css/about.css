@@ -1,0 +1,14 @@
+.rounded-circle{
+  height:100px;
+  width: 100px;
+}
+
+#members p{
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
