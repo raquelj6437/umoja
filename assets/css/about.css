@@ -1,8 +1,4 @@
-.rounded-circle{
-  height:100px;
-  width: 100px;
-}
-
+/* Members section */
 #members p{
   text-align: center;
 }
@@ -11,4 +7,9 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+#row2{
+  margin-right: 50px;
+  margin-left: 50px;
 }
