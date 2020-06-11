@@ -9,6 +9,9 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
   <link rel="stylesheet" href="assets/css/about.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -25,26 +28,26 @@
     <div id="navigation">
       <nav class="mb-1 navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-        <a class="navbar-brand" href="about.html">About</a>
+        <a class="navbar-brand" href="about.html" rel="external">About</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="home.html">Home</a>
+              <a class="nav-link" href="index.html" rel="external">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link" href="events.html" rel="external">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html" rel="external">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Resources</a>
+              <a class="nav-link" href="contact.html" rel="external">Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Gallary</a>
+              <a class="nav-link" href="contact.html" rel="external">Gallary</a>
             </li>
           </ul>
         </div>
@@ -55,6 +58,23 @@
   <section class="container">
     <div id="members">
       <div class="row" id="row1">
+        <a href="#popupBasic" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">
+          <img class="rounded-circle" alt="name" src="https://placehold.it/100x100" data-holder-rendered="true">
+          <p>name</p>
+          <p>position</p>
+        </a>
+        <div data-role="popup" id="popupBasic">
+          <br>
+          <img class="rounded-circle" alt="name" src="https://placehold.it/100x100" data-holder-rendered="true">
+          <p>Lorem ipsum dolor sit amet, mutat adversarium id eos, has at nisl qualisque explicari. Mazim noster interesset an eum, vel no mundi tantas moderatius, an ius consul vivendo inciderint. Cu quo rebum graeco. Per sumo fabulas torquatos ex. Ne
+            erat placerat vis, vel ne enim semper.
+            Affert scriptorem pro at. Ut nihil minimum ponderum sea, eos malis movet semper ad. Dicat viris congue ius id, eam no evertitur persecuti. Noluisse placerat mea ut.
+            Ut eos dolores mediocrem. Ea eum aperiam instructior, eam at denique fabellas, lorem delenit inermis vis et. Erant dolor tibique cu eos. An usu purto inermis expetenda. Usu ut hinc harum vivendo.
+            Meis viderer quo ex. Utinam vivendum disputationi sit eu, recteque posidonium ne sed, mei in eirmod virtute maluisset. Duo sale altera deserunt at, everti vituperatoribus ei vel, ad probo partiendo ius. His eu fuisset phaedrum
+            necessitatibus, detracto praesent accusamus mei ei.
+            Democritum inciderint est at, mea eu propriae tincidunt referrentur, wisi volumus vulputate eum eu. Ad vix feugiat invenire. Probo quodsi constituto eum id, quaestio democritum consequuntur sit ne, sed velit dolorem ex. Nobis putent
+            elaboraret id ius.</p>
+        </div>
         <div id="member1" class="member col-sm">
           <img class="rounded-circle" alt="name" src="https://placehold.it/100x100" data-holder-rendered="true">
           <p>name</p>
