@@ -9,16 +9,35 @@ img{
   margin-right: auto;
 }
 
-@media only screen and (min-width: 575px) {
-  #row2{
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-  }
+#popupBasic img{
+  width: 200px;
+  height: 200px;
 }
 
-@media only screen and (max-width: 575px) {
-  .row{
-    margin-left: 32%;
+.member{
+  padding-top: 20px;
+}
+
+.row{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#row2{
+  margin-bottom: 50px;
+}
+
+.member a{
+  color: black !important;
+}
+
+.member a:hover{
+  color: gray !important;
+  text-decoration: none !important;
+}
+
+@media only screen and (min-width: 800px) {
+  #popupBasic{
+    width: 700px;
   }
 }
