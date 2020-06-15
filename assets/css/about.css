@@ -3,6 +3,9 @@
   text-align: center;
 }
 
+#member1 button{
+  width: 5px !important;
+}
 img{
   display: block;
   margin-left: auto;
