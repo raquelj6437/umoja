@@ -37,3 +37,15 @@ section{
 #umoja-logo{
   height: 30px;
 }
+
+@media only screen and (max-width: 993px) {
+  #umoja-logo {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  #home-button {
+    display: none;
+  }
+}
