@@ -6,10 +6,9 @@ p{
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 20px;
 }
-section{
-  position: relative;
-  top: 50px;
-  margin-bottom: 100px;
+
+#navigation{
+  margin-bottom: 20px;
 }
 
 #header-img{
@@ -36,6 +35,15 @@ section{
 
 #umoja-logo{
   height: 30px;
+}
+
+#header-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 993px) {
