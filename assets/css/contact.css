@@ -1,3 +1,7 @@
+div.ui-loader.ui-overlay-shadow {
+  display: none !important;
+}
+
 #contact-form {
   background-color: white;
   padding-left: 50px !important;
