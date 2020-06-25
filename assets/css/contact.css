@@ -1,26 +1,23 @@
 #contact-form {
-  background-color: none;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 20px;
-  border-style: solid;
+  background-color: white;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  border-radius: 20px !important;
+  border-style: solid !important;
 }
 
 input[type=text] {
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid black;
-  background-color: transparent;
   width: 100%;
-  margin-bottom: 20px;
+  border: none;
+  border-bottom: solid 2px;
 }
 
 textarea {
-  width: 100%;
-  background-color: transparent;
-  border-color: black;
+  width: 100% !important;
+  background-color: transparent !important;
+  border-color: black !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -31,14 +28,7 @@ textarea {
 }
 
 #submit {
-  width: 100%;
-  background-color: #AAFF99;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  width: 100%
 }
 
 #socials {
