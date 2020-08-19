@@ -9,27 +9,13 @@ img{
   margin-right: auto;
 }
 
-#popupBasic img{
-  width: 200px;
-  height: 200px;
-}
-
-.row{
-  margin-right: 50px;
-  margin-left: 50px;
+#members img{
+  height: 150px;
+  width: 150px;
 }
 
 #row2{
   margin-bottom: 50px;
-}
-
-.member a{
-  color: black !important;
-}
-
-.member a:hover{
-  color: gray !important;
-  text-decoration: none !important;
 }
 
 .member-button{
@@ -49,8 +35,23 @@ img{
   line-height: 80%;
 }
 
-@media only screen and (min-width: 800px) {
-  #popupBasic{
-    width: 700px;
-  }
+.member-button span {
+  max-width: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  transition: height 0.5s, max-width 0.5s;
+  -webkit-transition: height 0.5s, , max-width 0.5s;
+  line-height: 1.8;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.member-button:hover span {
+  width: 300px;
+  max-width: 20rem;
+  height: 25rem;
+  word-wrap: break-word;
+  overflow: visible;
 }
