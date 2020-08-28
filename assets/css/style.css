@@ -12,6 +12,13 @@ p{
   height: 400px;
 }
 
+#navigation{
+  font-size: 20px;
+  background-color: transparent;
+  position: relative;
+  top: 80%;
+}
+
 .center-txt{
   position: absolute;
   top: 200px;
@@ -22,6 +29,7 @@ p{
 
 #header{
   background-color: white;
+  color: white;
 }
 
 #title{
@@ -37,13 +45,26 @@ p{
   height: 30px;
 }
 
-#header-img img{
-  width: 100%;
-  height: 100%;
+.navbar-dark a{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.navbar-dark a:hover{
+  text-decoration: none !important;
+  color: yellow !important;
+}
+
+.navbar-dark .disabled{
+  color: gray !important;
+}
+
+.navbar-dark .active{
+  color: yellow !important;
 }
 
 h2{
-  border-bottom: solid 5px red;
+  border-bottom: solid 5px #ffb5b5;
   width: 50%
 }
 
@@ -54,6 +75,9 @@ h2{
   h2{
     border-bottom: solid 5px red;
     width: 100%
+  }
+  #navigation{
+    position: inherit;
   }
 }
 

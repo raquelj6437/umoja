@@ -15,7 +15,11 @@ img{
 }
 
 #row2{
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+#mission p, #history p{
+  font-size: 25px;
 }
 
 .member-text p:first-child{
@@ -59,4 +63,12 @@ img{
   height: 25rem;
   word-wrap: break-word;
   overflow: visible;
+}
+
+#header-img{
+  background: url("../img/about-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
 }

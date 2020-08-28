@@ -1,27 +1,31 @@
 div.ui-loader.ui-overlay-shadow {
-  display: none !important;
+  display: none ;
 }
 
 #contact-form {
   background-color: white;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-  border-radius: 20px !important;
-  border-style: solid !important;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  margin-bottom: 20px;
 }
 
 input[type=text] {
   width: 100%;
   border: none;
   border-bottom: solid 2px;
+  margin-bottom: 10px;
 }
 
 textarea {
-  width: 100% !important;
-  background-color: transparent !important;
-  border-color: black !important;
+  width: 100%;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 20px;
+  padding-left: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -32,19 +36,40 @@ textarea {
 }
 
 #submit {
-  width: 100%
+  width: 100%;
+  border: none;
+  border-radius: 20px;
 }
 
-#socials {
-  color: black !important;
-  margin-bottom: 20px;
+#socials div{
+  height: 60px;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: white;
 }
 
-#socials a {
-  color: black !important;
-  font-weight: normal !important;
+#socials div:hover{
+  text-decoration: none;
+  background-color: #C8FFBD;
+}
+
+#socials a, #socials p{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 #submit:hover {
   background-color: #C8FFBD;
+}
+
+#header-img{
+  background: url("../img/contact-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
 }

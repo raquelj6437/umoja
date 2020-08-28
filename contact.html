@@ -19,14 +19,12 @@
 <body>
   <div id="header">
     <div id="header-img">
-      <img src="https://i1.wp.com/digitalexperience.ai/wp-content/uploads/2018/01/header-placeholder.png?fit=1440%2C434&ssl=1" alt="">
       <div class="center-txt">
         <p id='title'>Contact</p>
-        <p id='subtitle'>Lorem ipsum dolor sit amet</p>
+        <p id='subtitle'>Engage with us and follow our socials!</p>
       </div>
-    </div>
     <div id="navigation">
-      <nav class="mb-1 navbar navbar-expand-lg navbar-light">
+      <nav class="mb-1 navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <a class="navbar-brand" href="index.html" rel="external"><img src="assets/img/umoja-logo.png" alt="" id="umoja-logo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,24 +56,30 @@
       </nav>
     </div>
   </div>
+  </div>
   <div class="container">
     <div class="row">
       <section id="socials" class="col-sm">
-        <p><i class='bx-fw bx bxl-instagram circle-icon' style="color:;"></i><a href="https://www.instagram.com/umoja.bu/">Instagram</a><br><br></p>
-        <p><i class="bx-fw bx bxl-twitter" style="color:;"></i><a href="https://twitter.com/Umoja_BU">Twitter</a><br><br></p>
-        <p><i class="bx-fw bx bxl-facebook" style="color:;"></i><a href="https://www.facebook.com/umoja/">Facebook</a><br><br></p>
-        <p><i class="bx-fw bx bxl-snapchat" style="color:;"></i>umojabu<br></p>
+        <div>
+          <a href="https://www.instagram.com/umoja.bu/"><p><i class='bx-fw bx bxl-instagram circle-icon' style="color:#820000;"></i>Instagram<br><br></p></a>
+        </div>
+        <div>
+          <a href="https://twitter.com/Umoja_BU"><p><i class="bx-fw bx bxl-twitter" style="color:#00f2ff;"></i>Twitter<br><br></p></a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/umoja/"><p><i class="bx-fw bx bxl-facebook" style="color:#001eff;"></i>Facebook<br><br></p></a>
+        </div>
+        <div>
+          <p><i class="bx-fw bx bxl-snapchat" style="color:#ffff00;"></i>umojabu<br></p>
+        </div>
       </section>
       <section id="contact-form" class="col-sm">
         <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
-
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+          <label for="fname">Name</label>
+          <input type="text" id="name" name="firstname" placeholder="Your first and last name.."><br>
 
           <label for="lname">Email</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your email.."><br>
+          <input type="text" id="email" name="lastname" placeholder="Your email.."><br>
 
           <label for="subject">Message</label>
           <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
