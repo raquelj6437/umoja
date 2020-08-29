@@ -1,0 +1,30 @@
+#header-img{
+  background: url("../img/resources-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.container{
+  color: black;
+}
+
+h2{
+  border-bottom: solid 5px #fdccff;
+}
+
+.navbar-dark a:hover{
+  text-decoration: none !important;
+  color: #fdccff !important;
+}
+
+.navbar-dark .active{
+  color: #fdccff !important;
+}
+
+#blackOrgs p{
+  border: solid #fdccff;
+  border-radius: 25px;
+  margin-left: 10px;
+  text-align: center;
+}
