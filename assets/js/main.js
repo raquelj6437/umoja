@@ -19,7 +19,7 @@ $(document).ready(function() {
       alert("Thank you for your response!")
       $("#name").val('')
       $("#email").val('')
-      var message = $("#message").val('')
+      $("#message").val('')
     }
   });
 
