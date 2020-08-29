@@ -52,7 +52,7 @@ p{
 
 .navbar-dark a:hover{
   text-decoration: none !important;
-  color: yellow !important;
+  color: #91bbff !important;
 }
 
 .navbar-dark .disabled{
@@ -60,12 +60,12 @@ p{
 }
 
 .navbar-dark .active{
-  color: yellow !important;
+  color: #91bbff !important;
 }
 
 h2{
   border-bottom: solid 5px #ffb5b5;
-  width: 50%
+  width: 50%;
 }
 
 @media only screen and (max-width: 993px) {
