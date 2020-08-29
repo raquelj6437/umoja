@@ -1,3 +1,16 @@
+h2{
+  border-bottom: solid 5px #cbffba;
+}
+
+.navbar-dark a:hover{
+  text-decoration: none !important;
+  color: #cbffba !important;
+}
+
+.navbar-dark .active{
+  color: #cbffba !important;
+}
+
 #events img{
   height: 500px;
   width: 400px;

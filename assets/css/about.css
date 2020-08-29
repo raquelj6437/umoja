@@ -1,3 +1,16 @@
+h2{
+  border-bottom: solid 5px #ffb8b8;
+}
+
+.navbar-dark a:hover{
+  text-decoration: none !important;
+  color: #ffb8b8 !important;
+}
+
+.navbar-dark .active{
+  color: #ffb8b8 !important;
+}
+
 /* Members section */
 #members p{
   text-align: center;

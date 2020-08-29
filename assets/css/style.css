@@ -50,21 +50,11 @@ p{
   color: white !important;
 }
 
-.navbar-dark a:hover{
-  text-decoration: none !important;
-  color: #91bbff !important;
-}
-
 .navbar-dark .disabled{
   color: gray !important;
 }
 
-.navbar-dark .active{
-  color: #91bbff !important;
-}
-
 h2{
-  border-bottom: solid 5px #ffb5b5;
   width: 50%;
 }
 
@@ -73,7 +63,6 @@ h2{
     display: none;
   }
   h2{
-    border-bottom: solid 5px red;
     width: 100%
   }
   #navigation{

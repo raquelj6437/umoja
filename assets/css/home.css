@@ -9,3 +9,16 @@ section p{
   background-size: cover;
   margin-bottom: 20px;
 }
+
+h2{
+  border-bottom: solid 5px #c9c9c9;
+}
+
+.navbar-dark a:hover{
+  text-decoration: none !important;
+  color: #c9c9c9 !important;
+}
+
+.navbar-dark .active{
+  color: #c9c9c9 !important;
+}
