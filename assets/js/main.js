@@ -16,6 +16,10 @@ $(document).ready(function() {
     }
     else {
       writeUserData(name, email, message);
+      alert("Thank you for your response!")
+      $("#name").val('')
+      $("#email").val('')
+      var message = $("#message").val('')
     }
   });
 
