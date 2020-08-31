@@ -17,7 +17,9 @@ $(document).ready(function() {
     else {
       writeUserData(name, email, message);
       alert("Thank you for your response!")
-      location.reload(true)
+      $("#name").val('');
+      $("#email").val('');
+      $("#message").val('');
     }
   });
 
