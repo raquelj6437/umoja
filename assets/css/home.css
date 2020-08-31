@@ -10,7 +10,19 @@ section p{
   margin-bottom: 20px;
 }
 
+#calendar img{
+  border: 2px solid #c9c9c9;
+  width: 100%;
+}
+
+#calendar img:hover{
+  background-color: white;
+  opacity: .5;
+  /* background-blend-mode: screen; */
+}
+
 h2{
+  text-align: left;
   border-bottom: solid 5px #c9c9c9;
 }
 
