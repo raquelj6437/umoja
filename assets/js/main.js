@@ -24,4 +24,8 @@ $(document).ready(function() {
   });
 
   var d = new Date();
+
+  $('#gallery-button').click(function() {
+      alert('Coming Soon.')
+  });
 });
