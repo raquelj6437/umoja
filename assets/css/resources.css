@@ -23,7 +23,7 @@ h2{
 }
 
 #blackOrgs p{
-  border: solid #fdccff;
+  border: 1px solid black;
   border-radius: 25px;
   margin-left: 10px;
   text-align: center;
