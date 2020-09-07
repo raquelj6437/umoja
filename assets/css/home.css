@@ -12,7 +12,11 @@ section p{
 
 #calendar img{
   border: 2px solid red;
-  width: 100%;
+  width: 80%;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #calendar img:hover{
@@ -54,3 +58,7 @@ h2{
 .instagram-media{
   height: 510px;
 }
+
+/* .instagram-media:hover{
+
+} */
