@@ -55,10 +55,16 @@ h2{
   color: #c9c9c9 !important;
 }
 
+/* #feed{
+  height: 500px
+} */
+
 .instagram-media{
-  height: 510px;
+  height: 868px;
 }
 
-/* .instagram-media:hover{
-
+/* @media only screen and (max-width: 800px) {
+  .instagram-media{
+    height: 670px;
+  }
 } */

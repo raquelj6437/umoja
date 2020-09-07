@@ -41,6 +41,9 @@ h2{
      width: 550px;
      height: 400px;
    }
+   .carousel{
+     width: 100%;
+   }
  }
 
  @media only screen and (max-width: 600px) {
