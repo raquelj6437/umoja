@@ -29,6 +29,10 @@ h2{
    margin-bottom: 50px;
  }
 
+.carousel{
+  width: 400px;
+}
+
  @media only screen and (max-width: 800px) {
    #events img{
      width: 100%;
