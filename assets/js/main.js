@@ -39,7 +39,7 @@ $(document).ready(function() {
     alert('clicked')
     var id = $("#ID").val();
 
-    // writePostIDData(id);
+    writePostIDData(id);
   });
 
   setTimeout(
