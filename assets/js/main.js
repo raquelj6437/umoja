@@ -39,18 +39,18 @@ $(document).ready(function() {
     alert('clicked')
     var id = $("#ID").val();
 
-    writePostIDData(id);
+    // writePostIDData(id);
   });
 
   setTimeout(
   function()
   {
-    $("#feed").append('<div class="col-sm"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/'+ postIDList[0] + '/embed/captioned/?cr=1&amp;v=10&amp;wp=1080&amp;rd=https%3A%2F%2Fblog.hubspot.com&amp;rp=%2Fmarketing%2Fembed-social-media-posts-guide#%7B%22ci%22%3A0%2C%22os%22%3A3610%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="max-width: 540px; width: calc(100% - 2px); background-color: white; box-shadow: none; display: block; min-width: 326px; padding: 0px;"></iframe> </div>');
-    $("#feed").append('<div class="col-sm"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/'+ postIDList[1] + '/embed/captioned/?cr=1&amp;v=10&amp;wp=1080&amp;rd=https%3A%2F%2Fblog.hubspot.com&amp;rp=%2Fmarketing%2Fembed-social-media-posts-guide#%7B%22ci%22%3A0%2C%22os%22%3A3610%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="max-width: 540px; width: calc(100% - 2px); background-color: white; box-shadow: none; display: block; min-width: 326px; padding: 0px;"></iframe> </div>');
-    $("#feed").append('<div class="col-sm"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/'+ postIDList[2] + '/embed/captioned/?cr=1&amp;v=10&amp;wp=1080&amp;rd=https%3A%2F%2Fblog.hubspot.com&amp;rp=%2Fmarketing%2Fembed-social-media-posts-guide#%7B%22ci%22%3A0%2C%22os%22%3A3610%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="max-width: 540px; width: calc(100% - 2px); background-color: white; box-shadow: none; display: block; min-width: 326px; padding: 0px;"></iframe> </div>');
-
+    var i;
+    for (i = 0; i < 3; i++) {
+      $("#feed").append('<div class="col-sm"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/'+ postIDList[i] + '/embed/captioned/?cr=1&amp;v=10&amp;wp=1080&amp;rd=https%3A%2F%2Fblog.hubspot.com&amp;rp=%2Fmarketing%2Fembed-social-media-posts-guide#%7B%22ci%22%3A0%2C%22os%22%3A3610%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="max-width: 540px; width: calc(100% - 2px); background-color: white; box-shadow: none; display: block; min-width: 326px; padding: 0px;"></iframe> </div>');
+    }
     console.log(postIDList[0])
-  }, 1000);
+  }, 600);
 
 
   postIDList = []
@@ -64,5 +64,3 @@ $(document).ready(function() {
     });
   });
 });
-
-// <div class="col-sm"> <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/CE2G8nTgE9a/embed/captioned/?cr=1&amp;v=10&amp;wp=1080&amp;rd=https%3A%2F%2Fblog.hubspot.com&amp;rp=%2Fmarketing%2Fembed-social-media-posts-guide#%7B%22ci%22%3A0%2C%22os%22%3A3610%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="max-width: 540px; width: calc(100% - 2px); background-color: white; box-shadow: none; display: block; min-width: 326px; padding: 0px;"></iframe> </div>
